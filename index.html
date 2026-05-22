@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Кулинарные шедевры</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            <span>🍴</span>
+
+            <div>
+
+                <h2>Кулинарные</h2>
+
+                <p>шедевры</p>
+
+            </div>
+
+        </div>
+
+        <ul class="menu">
+
+            <li><a href="#home">Главная</a></li>
+
+            <li><a href="#recipes">Рецепты</a></li>
+
+            <li><a href="#popular">Популярное</a></li>
+
+            <li><a href="#tips">Советы</a></li>
+
+            <li><a href="#about">О сайте</a></li>
+
+            <li><a href="#contact">Контакты</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <span class="hero-tag">
+            🔥 Готовьте с удовольствием
+        </span>
+
+        <h1>
+
+            Кулинарные
+            <span>шедевры</span>
+
+        </h1>
+
+        <p>
+
+            Вкусные и быстрые рецепты
+            для всей семьи.
+            Готовьте легко, красиво
+            и с удовольствием!
+
+        </p>
+
+        <button onclick="showMessage()">
+
+            Смотреть рецепты
+
+        </button>
+
+        <div class="hero-stats">
+
+            <div>
+
+                <h3>500+</h3>
+
+                <p>рецептов</p>
+
+            </div>
+
+            <div>
+
+                <h3>50k+</h3>
+
+                <p>довольных людей</p>
+
+            </div>
+
+            <div>
+
+                <h3>100%</h3>
+
+                <p>вкусные блюда</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=1200&auto=format&fit=crop" alt="food">
+
+    </div>
+
+</section>
+
+<section class="categories" id="recipes">
+
+    <div class="section-title">
+
+        <p>На любой вкус</p>
+
+        <h2>
+
+            Категории
+            <span>рецептов</span>
+
+        </h2>
+
+    </div>
+
+    <div class="category-container">
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1200&auto=format&fit=crop">
+
+            <h3>Завтраки</h3>
+
+            <p>Быстрые и полезные завтраки</p>
+
+        </div>
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1200&auto=format&fit=crop">
+
+            <h3>Обеды</h3>
+
+            <p>Сытные и вкусные блюда</p>
+
+        </div>
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=1200&auto=format&fit=crop">
+
+            <h3>Ужины</h3>
+
+            <p>Лёгкие блюда для вечера</p>
+
+        </div>
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=1200&auto=format&fit=crop">
+
+            <h3>Десерты</h3>
+
+            <p>Сладкие шедевры</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="popular" id="popular">
+
+    <div class="section-title dark">
+
+        <p>Выбор наших гостей</p>
+
+        <h2>
+
+            Популярные
+            <span>рецепты</span>
+
+        </h2>
+
+    </div>
+
+    <div class="popular-container">
+
+        <div class="popular-card">
+
+            <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="popular-info">
+
+                <span>25 минут</span>
+
+                <h3>Домашний бургер</h3>
+
+                <p>
+                    Сочный бургер
+                    с овощами и сыром
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="popular-card">
+
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="popular-info">
+
+                <span>20 минут</span>
+
+                <h3>Паста с курицей</h3>
+
+                <p>
+                    Нежная паста
+                    в сливочном соусе
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="popular-card">
+
+            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="popular-info">
+
+                <span>15 минут</span>
+
+                <h3>Греческий салат</h3>
+
+                <p>
+                    Лёгкий салат
+                    со свежими овощами
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="tips" id="tips">
+
+    <div class="tips-content">
+
+        <div class="tips-text">
+
+            <h2>
+
+                Готовьте
+                <span>с удовольствием!</span>
+
+            </h2>
+
+            <p>
+
+                Простые инструкции,
+                доступные ингредиенты
+                и лучшие рецепты
+                для домашней кухни.
+
+            </p>
+
+        </div>
+
+        <div class="tips-video">
+
+            <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?q=80&w=1200&auto=format&fit=crop">
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <div class="about-image">
+
+        <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=1200&auto=format&fit=crop">
+
+    </div>
+
+    <div class="about-text">
+
+        <h2>
+
+            О сайте
+
+        </h2>
+
+        <p>
+
+            «Кулинарные шедевры»
+            — это современный food-сайт
+            с лучшими рецептами быстрого приготовления.
+
+        </p>
+
+        <p>
+
+            Здесь собраны завтраки,
+            ужины, десерты и напитки
+            для всей семьи.
+
+        </p>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+
+        <p>Связаться с нами</p>
+
+        <h2>
+
+            Обратная
+            <span>связь</span>
+
+        </h2>
+
+    </div>
+
+    <form class="contact-form">
+
+        <input type="text" placeholder="Ваше имя">
+
+        <input type="email" placeholder="Ваш email">
+
+        <textarea rows="5" placeholder="Ваше сообщение"></textarea>
+
+        <button type="submit">
+
+            Отправить сообщение
+
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div>
+
+            <h3>Кулинарные шедевры</h3>
+
+            <p>
+                Лучшие рецепты
+                для домашней кухни.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h3>Навигация</h3>
+
+            <p>Главная</p>
+            <p>Рецепты</p>
+            <p>Популярное</p>
+            <p>Контакты</p>
+
+        </div>
+
+        <div>
+
+            <h3>Контакты</h3>
+
+            <p>+998 90 123 45 67</p>
+
+            <p>info@food.ru</p>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+
+        © 2026 Кулинарные шедевры
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>
